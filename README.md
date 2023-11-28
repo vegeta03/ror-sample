@@ -3,22 +3,10 @@
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
-Things you may want to cover:
+## Using Docker
 
-* Ruby version
+From the project root directory run the following commands to build and run using docker
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. `docker build -t ror-sample .`
+2. `docker run -p 3000:3000 ror-sample`
+3. The application will be served at `http://localhost:3000`
