@@ -8,4 +8,4 @@ COPY . .
 CMD ["rails", "server", "-b", "0.0.0.0"]
 
 # docker build -t ror-sample .
-# docker run -p 8080:3000 ror-sample
+# docker run -p 3000:3000 ror-sample
